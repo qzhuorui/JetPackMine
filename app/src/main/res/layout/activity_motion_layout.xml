@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_motion_layout_scene_3"
+    app:motionDebug="SHOW_PATH">
+
+    <include
+        android:id="@+id/include_tv"
+        layout="@layout/textview_motion_layout" />
+
+    <TextView
+        android:id="@+id/leftView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Left"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/centerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/rightView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right"
+        android:visibility="gone" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

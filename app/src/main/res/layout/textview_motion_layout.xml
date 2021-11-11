@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/textview_motion_layout_scene"
+    app:motionDebug="SHOW_PATH">
+
+    <TextView
+        android:id="@+id/tv_motionLayout"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Motion_TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
