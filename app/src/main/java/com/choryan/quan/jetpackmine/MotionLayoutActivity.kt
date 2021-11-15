@@ -1,17 +1,23 @@
 package com.choryan.quan.jetpackmine
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.floatbar_motion_layout.*
 
 /**
  * Created by ChoRyan Quan on 2021/11/11 15:46.
  * E-mail : qzhuorui@gmail.com
  * Function :
  */
-class MotionLayoutActivity : AppCompatActivity(R.layout.activity_motion_layout) {
+class MotionLayoutActivity : AppCompatActivity(R.layout.floatbar_motion_layout) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        cl_1.setOnClickListener {
+            Toast.makeText(this, "cl_1", Toast.LENGTH_SHORT).show()
+        }
 
     }
 
