@@ -5,14 +5,14 @@ import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.choryan.quan.jetpackmine.R
-import kotlinx.android.synthetic.main.live_data_test_activity_layout.*
+import kotlinx.android.synthetic.main.activity_live_data_test_layout.*
 
 /**
  * Created by ChoRyan Quan on 2021/11/11 15:46.
  * E-mail : qzhuorui@gmail.com
  * Function :
  */
-class LiveDataTestActivity : AppCompatActivity(R.layout.live_data_test_activity_layout) {
+class LiveDataTestActivity : AppCompatActivity(R.layout.activity_live_data_test_layout) {
 
     private var mFragment: LiveDataTestFragment? = null
 

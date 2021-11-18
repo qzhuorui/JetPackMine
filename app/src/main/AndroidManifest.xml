@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetPackMine">
         <activity
-            android:name=".livedatatest.LiveDataTestActivity"
+            android:name=".viewmodule.ViewModuleTestActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
