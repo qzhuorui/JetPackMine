@@ -1,8 +1,9 @@
-package com.choryan.quan.jetpackmine
+package com.choryan.quan.jetpackmine.motionlayout
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.choryan.quan.jetpackmine.R
 import kotlinx.android.synthetic.main.floatbar_motion_layout.*
 
 /**

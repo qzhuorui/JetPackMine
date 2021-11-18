@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetPackMine">
         <activity
-            android:name=".MainActivity"
+            android:name=".livedatatest.LiveDataTestActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MotionLayoutActivity" />
+        <activity android:name=".motionlayout.MotionLayoutActivity" />
+<!--        <activity android:name=".livedatatest.LiveDataTestActivity" />-->
     </application>
 
 </manifest>
