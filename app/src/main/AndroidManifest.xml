@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetPackMine">
         <activity
-            android:name=".viewmodule.ViewModuleTestActivity"
+            android:name=".transitions.TransitionTestActivity1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".motionlayout.MotionLayoutActivity" />
-<!--        <activity android:name=".livedatatest.LiveDataTestActivity" />-->
+        <!--        <activity android:name=".transitions.TransitionTestActivity1" />-->
+        <activity android:name=".transitions.TransitionTestActivity2" />
+        <activity android:name=".tmptest.Activity_2" />
+        <activity android:name=".tmptest.Activity_1" />
+        <!--        <activity android:name=".livedatatest.LiveDataTestActivity" />-->
     </application>
 
 </manifest>
