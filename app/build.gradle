@@ -45,4 +45,8 @@ dependencies {
 
     def lifeCycleVersion = "2.3.1"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifeCycleVersion"
+
+    //Material motion
+    implementation 'com.google.android.material:material:1.4.0-alpha01'
+
 }

@@ -10,6 +10,9 @@ import android.transition.TransitionSet
 import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
 import com.choryan.quan.jetpackmine.R
+import com.google.android.material.transition.platform.MaterialContainerTransform
+import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback
+import kotlinx.android.synthetic.main.activity_transition_2.*
 
 /**
  * Created by ChoRyan Quan on 2021/11/23 14:52.
@@ -19,8 +22,22 @@ import com.choryan.quan.jetpackmine.R
 class TransitionTestActivity2 : AppCompatActivity(R.layout.activity_transition_2) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        readyAnimation()
+
+        window.requestFeature(Window.FEATURE_ACTIVITY_TRANSITIONS)
+        setEnterSharedElementCallback(MaterialContainerTransformSharedElementCallback())
+
+        //设置具体动画
+        window.sharedElementEnterTransition = MaterialContainerTransform().apply {
+            addTarget(cl_parent_2)
+            duration = 300L
+        }
+        window.sharedElementExitTransition = MaterialContainerTransform().apply {
+            addTarget(cl_parent_2)
+            duration = 300L
+        }
+
         super.onCreate(savedInstanceState)
+
     }
 
     private fun readyAnimation() {
