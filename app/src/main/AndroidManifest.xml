@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetPackMine">
         <activity
-            android:name=".transitions.TransitionTestActivity1"
+            android:name=".view.HomeTabContentActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

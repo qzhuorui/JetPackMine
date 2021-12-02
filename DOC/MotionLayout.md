@@ -48,3 +48,7 @@ MotionLayout即动态布局，是`ConstraintLayout`的子类
         d.rotation, rotationX, rotationY
         e.translationX, translationY, translationZ
         f.scaleX, scaleY
+
+#### 7. 使用问题汇总：
+        1. 注意：一定要在scene中指定宽高属性，否则展示不出来
+        2. 多元素点击，多Transition时，需要使用代码的方式来设置运行

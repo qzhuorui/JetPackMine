@@ -46,7 +46,7 @@ dependencies {
     def lifeCycleVersion = "2.3.1"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifeCycleVersion"
 
-    //Material motion
+    //MaterialDesign(Material motion;Material Button)
     implementation 'com.google.android.material:material:1.4.0-alpha01'
 
 }
